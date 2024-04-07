@@ -74,7 +74,7 @@ with st.sidebar:
 #Main pagerub
 if (selected=="Home"): 
     st.header("Citrus Disease Detection Using Machine Learning")
-    st.image(".FrontEnd/home.jpg")
+    st.image("./FrontEnd/home.jpg")
     st.markdown("""
     Welcome to the Citrus Disease Recognition System! 🌿🔍
     
