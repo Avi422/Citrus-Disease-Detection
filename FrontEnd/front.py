@@ -6,7 +6,7 @@ from englisttohindi.englisttohindi import EngtoHindi
 
 
 def model_prediction(test_image):
-    model = tf.keras.models.load_model("testing3.h5",compile=False)
+    model = tf.keras.models.load_model("FrontEnd/testing3.h5",compile=False)
     image = tf.keras.preprocessing.image.load_img(test_image,target_size=(128,128))
     input_arr = tf.keras.preprocessing.image.img_to_array(image)
     input_arr = np.array([input_arr]) #convert single image to batch
@@ -74,7 +74,7 @@ with st.sidebar:
 #Main pagerub
 if (selected=="Home"): 
     st.header("Citrus Disease Detection Using Machine Learning")
-    st.image("./home.jpg")
+    st.image("./FrontEnd/home.jpg")
     st.markdown("""
     Welcome to the Citrus Disease Recognition System! 🌿🔍
     
