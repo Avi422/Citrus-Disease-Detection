@@ -43,7 +43,7 @@ def preventive_measures(disease):
                     "2. Keep foliage dry by watering at the base..\n"
                     "3. copper-based fungicides.\n"
                     "4. Remove fallen leaves and debris from around trees.\n")
-    elif disease == 'black spot-fruit':
+    elif disease == 'black-spot-fruit':
         measures = ("1. Remove infected plant material.\n"
                     "2. Apply copper sprays during outbreaks.\n"
                     "3. Prune infected branches below symptoms.\n"
